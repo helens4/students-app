@@ -1,0 +1,116 @@
+:root {
+    --primary: #047c5c;
+    --secondary: #ec5909;
+}
+
+
+.primary {
+    background-color: var(--primary);
+}
+
+.secondary {
+    background-color: var(--secondary);
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.primary-text {
+    color: var(--primary);
+}
+
+.secondary-text {
+    color: var(--secondary);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.primary-border {
+    border: 2px solid;
+    border-color: var(--primary);
+}
+
+.secondary-border {
+    border: 2px solid;
+    border-color: var(--secondary)
+}
+
+.text-small {
+    font-size: 16px;
+}
+
+.text-medium {
+    font-size: 20px;
+}
+
+.text-large {
+    font-size: 36px;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.w-screen {
+    height: 100vw;
+}
+
+.w-400 {
+    width: 400px;
+}
+
+.w-300 {
+    width: 300px;
+}
+
+.card-md {
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1)
+}
+
+input {
+    border-radius: 0 !important;
+    height: 40px !important;
+    border: 2px solid rgb(85, 85, 85) !important;
+}
+
+input:focus {
+    border: 2px solid var(--primary) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+button {
+    border-radius: 0;
+    height: 40px !important;
+    border: none !important;
+}
+
+h1 {
+    margin: 0 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+    color: green;
+}
